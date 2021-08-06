@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61925" started-at="2021-06-14T06:50:58 GMT+05:30" finished-at="2021-06-14T06:52:00 GMT+05:30">
+    <groups>
+    </groups>
+    <test name="Page Validation Text" duration-ms="36709" started-at="2021-06-14T06:50:58 GMT+05:30" finished-at="2021-06-14T06:51:35 GMT+05:30">
+      <class name="Academy.ValidateText">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateText@63753b6d]" name="initialize" is-config="true" duration-ms="22203" started-at="2021-06-14T06:50:58 GMT+05:30" finished-at="2021-06-14T06:51:20 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageText()[pri:0, instance:Academy.ValidateText@63753b6d]" name="basePageText" duration-ms="9014" started-at="2021-06-14T06:51:20 GMT+05:30" finished-at="2021-06-14T06:51:29 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateText@63753b6d]" name="tearDown" is-config="true" duration-ms="5474" started-at="2021-06-14T06:51:29 GMT+05:30" finished-at="2021-06-14T06:51:35 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateText -->
+    </test> <!-- Page Validation Text -->
+    <test name="User Login Validation" duration-ms="61925" started-at="2021-06-14T06:50:58 GMT+05:30" finished-at="2021-06-14T06:52:00 GMT+05:30">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@22a67b4]" name="initialize" is-config="true" duration-ms="23291" started-at="2021-06-14T06:50:58 GMT+05:30" finished-at="2021-06-14T06:51:21 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageMethod(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@22a67b4]" name="basePageMethod" duration-ms="11408" started-at="2021-06-14T06:51:21 GMT+05:30" data-provider="dataPro" finished-at="2021-06-14T06:51:33 GMT+05:30">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gaurav1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@22a67b4]" name="tearDown" is-config="true" duration-ms="3278" started-at="2021-06-14T06:51:33 GMT+05:30" finished-at="2021-06-14T06:51:36 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@22a67b4]" name="initialize" is-config="true" duration-ms="10729" started-at="2021-06-14T06:51:36 GMT+05:30" finished-at="2021-06-14T06:51:47 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageMethod(java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@22a67b4]" name="basePageMethod" duration-ms="10294" started-at="2021-06-14T06:51:47 GMT+05:30" data-provider="dataPro" finished-at="2021-06-14T06:51:57 GMT+05:30">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gaurav2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@22a67b4]" name="tearDown" is-config="true" duration-ms="2879" started-at="2021-06-14T06:51:57 GMT+05:30" finished-at="2021-06-14T06:52:00 GMT+05:30">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- User Login Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
