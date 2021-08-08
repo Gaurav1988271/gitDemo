@@ -11,5 +11,7 @@ public class App
         System.out.println( "Hello World!" );
         
         System.out.println("Checking E2E project the git status");
+        
+        System.out.println("switch to new branch");
     }
 }
